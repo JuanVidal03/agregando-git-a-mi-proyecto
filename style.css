@@ -1,0 +1,426 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+}
+
+/*Header estilos*/
+
+header{
+    background-color: #000;
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: solid #fff 1px;
+}
+.nav-container .nav{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.nav-container a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.nav li{
+    padding-right: .7rem;
+}
+
+/* Fin estilos header */
+
+/* estilos section 1 */
+
+#inicio{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    )
+    ,url("./multimedia/estudio.jpg");
+    background-attachment: fixed;
+    height: 30rem;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+}
+
+/* estilos generales */
+
+h1{
+    color: #fff;
+    margin: auto;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 2.3rem;
+}
+
+h4{
+    font-size: 1.7rem;
+}
+
+h5{
+    font-size: 1.5rem;
+}
+
+h6{
+    font-size: 1.3rem;
+}
+p{
+    color: #000;
+}
+/*fin estilos generales*/
+
+/*Nosotros estilos*/
+
+.nosotros{
+    display: flex;
+    padding: 7rem 3rem 7rem 3rem;
+}
+
+.nosotros-text{
+    width: 60%;
+    padding-right: 1rem;
+}
+
+.nosotros-text h2{
+    margin-bottom: 1rem;
+}
+
+.nosotros-video{
+    display: flex;
+    justify-content: flex-end;
+}
+
+video{
+    width: 30rem;
+    height: 15rem;
+}
+
+/*Fin Estilos nosotros*/
+
+/*Estilos servicios*/
+
+#servicios{
+    background-color: #f2f2f2;
+    padding: 5rem 3rem 5rem 3rem;
+}
+
+.servicios-title{
+    display: flex;
+    justify-content: center;
+}
+
+.servicios-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.img-grabacion{
+    width: 25rem;
+    padding-bottom: 1rem;
+
+}
+
+.servicios-grabacion_video h4{
+    text-align: center;
+}
+
+.servicios-grabacion_cancion{
+    text-align: center;
+    padding-right: 3rem;
+}
+
+/*Fin Estilos servicios*/
+
+/*Estilos botón call to action*/
+.call-to-action{
+    background-color: #fff;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    display: flex;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    flex-wrap: wrap;
+}
+
+.call-to-action-button{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.call-to-action-button a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: 3px solid #000;
+    padding: .5rem 1rem .5rem 1rem;
+    color: #fff;
+    font-weight: bold;
+    background-color: #000;
+    box-shadow: none;
+}
+
+/* .call-to-action-button a:hover{
+    color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+} */
+/*Fin estilos call to action*/
+
+/* estilos artistas*/
+
+#artistas{
+    padding: 5rem 3rem 5rem 3rem;
+}
+
+.artistas-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.artistas-subtitle{
+    margin-bottom: 1rem;
+}
+
+.artistas-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artistas-subcontainer a{
+    text-decoration: none;
+    color: #000;
+    letter-spacing: .2rem;
+}
+
+.artistas-img{
+    width: 25rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #000;
+}
+/* fin estilos artistas*/
+
+/* estilos playlist*/
+
+#playlist{
+    background-color: #f2f2f2;
+    padding: 5rem 3rem;
+}
+
+.playlist-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.playlist-text-container{
+    width: 100%;
+    padding-left: 22rem;
+    padding-right: 22rem;
+}
+
+.playlist-text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.playlist-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* fin estilos playlist*/
+
+/* estilos contacto*/
+
+#contacto{
+    padding: 5rem 3rem;
+}
+
+.contacto-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.contacto-text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.contacto-email-container{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto-email{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 10rem;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 2rem;
+}
+.contacto-submit-container{
+    display: flex;
+    justify-content: center;
+}
+.contacto-submit{
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: 3px solid #000;
+    padding: .5rem 2rem .5rem 2rem;
+    color: #fff;
+    font-weight: bold;
+    background-color: #000;
+    box-shadow: none;
+}
+/* fin estilos conatcto*/
+
+
+/* fin estilos footer*/
+
+#footer-principal-container{
+    background-color: #000;
+    padding: 5rem 3rem 2rem 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-logo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: #fff solid 1px;
+}
+
+.footer-logo{
+    width: 33.3%;
+    text-align: center;
+}
+
+.footer-menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+.footer-container{
+    width: 33.3%;
+    text-align: center;
+}
+
+.footer-text-information p{
+    color: #fff;
+
+}
+
+.footer-text-information{
+    width: 33.3%;
+    text-align: center;
+    padding-right: 5rem;
+}
+
+footer{
+    background-color: #000;
+}
+
+.my-information {
+
+    height: 3rem;
+    width: 80%;
+    border-top: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.my-information p{
+    color: #fff;
+}
+
+.my-information a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.principal-container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social-media{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.nav-social-media{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.items-social-media{
+    display: flex;
+}
+
+.items-social-media li a{
+    padding-right: 1rem;
+}
+
+.items-social-media img{
+    width: 30px;
+    height: 30px;
+}
+
+.footer-social-media{
+    margin-top: 2rem;
+}
+/* fin estilos footer*/
