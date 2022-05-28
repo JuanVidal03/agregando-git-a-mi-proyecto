@@ -18,6 +18,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
 }
 
 li{
@@ -47,8 +48,12 @@ li{
 
 .nav li{
     padding-right: .7rem;
+    transition: all .5s;
 }
 
+.nav li:hover{
+    transform: scale(1.1) translateY(-7px);
+}
 /* Fin estilos header */
 
 /* estilos section 1 */
@@ -61,10 +66,11 @@ li{
     )
     ,url("./multimedia/estudio.jpg");
     background-attachment: fixed;
-    height: 30rem;
+    height:39rem;
     background-size: cover;
     display: flex;
     text-align: center;
+    padding-top: 7rem;
 }
 
 /* estilos generales */
