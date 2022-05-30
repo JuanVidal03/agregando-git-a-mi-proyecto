@@ -9,6 +9,12 @@ html{
     font-size: 16px;
 }
 
+body ::selection{
+    color: #fff;
+    background-color: #000;
+
+}
+
 /*Header estilos*/
 
 header{
@@ -339,8 +345,18 @@ video{
     padding: .5rem 2rem .5rem 2rem;
     color: #fff;
     font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
     background-color: #000;
     box-shadow: none;
+    transition: all .5s;
+}
+
+.contacto-submit:hover{
+    color: #000;
+    background-color: #fff;
+    border: solid #000 3px;
+    border-radius: 50px;
+    transform: scale(1.1);
 }
 /* fin estilos conatcto*/
 
@@ -374,11 +390,27 @@ video{
     text-transform: uppercase;
     font-size: 1.2rem;
     line-height: 1.7rem;
+    transition: all .5s;
+}
+.footer-menu li{
+    transition: all .5s;
+}
+.footer-menu li:hover{
+    transform: translateX(30px);
 }
 
 .footer-container{
     width: 33.3%;
     text-align: center;
+}
+
+.footer-logo img{
+    transition: all .5s;
+}
+
+.footer-logo img:hover{
+    transform: scale(1.1) rotate(360deg);
+    
 }
 
 .footer-text-information p{
@@ -441,6 +473,13 @@ footer{
     padding-right: 1rem;
 }
 
+.items-social-media li{
+    transition: all .5s;
+}
+
+.items-social-media li:hover{
+    transform: scale(1.2);
+}
 .items-social-media img{
     width: 30px;
     height: 30px;
